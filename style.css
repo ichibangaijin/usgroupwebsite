@@ -4,17 +4,12 @@
 	position:relative;
 }
 
-@media (max-width:1100px) {
+@media (max-width:1125px) {
   body {
-    width:1050px;
+    width:1125px;
 }
 }
 
-@media (max-width: 800px) {
-  body {
-    zoom:.60;
-  }
-}
 
 
 body {
@@ -145,15 +140,15 @@ section.bottom-section {
 	vertical-align:top;
 	width:25%;
 	background-color:#f2f2f2;
-    margin: 4%; 2%;
-
+  margin: 4%; 2%;
+	height: 300px;
 }
 
 .boxphoto p {
 	font-size:25px;
 	clear:left;
 	text-align:left;
-    padding-left:1em;
+  padding-left:1em;
 	
 
 }
@@ -165,3 +160,40 @@ footer {
   bottom: 0;
   width: 100%;
   text-align:center;
+	
+}
+.sign-up-wrapper {
+	width:100%;
+	height: 600px;
+	background:#25627F;
+	float:left;
+	border-top:solid 10px black;
+	
+}
+
+#sign-up-container {
+	height: 500px;
+	width: 60%;
+	background-color:#f2f2f2;
+	margin:25px auto 50px auto;
+	box-shadow: 15px 15px 100px black;
+	border:solid 25px #25627F;
+	
+}
+	
+#footer-wrapper {
+	width:100%;
+	clear:both;
+	text-align:center;
+	height:50px;
+	
+}
+
+#footer {
+	font-size: 20px;
+	padding-top:10px;
+	border:solid 10px black;
+	
+
+	
+}
