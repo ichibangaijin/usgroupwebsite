@@ -2,74 +2,105 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="US Group Consolidator Inc. cloud-based online LTL booking             system.">
-  <meta name="author" content="Ichiban Gaijin">
-  <title>US Group Consolidators LTL Trucking</title>
-  <link rel="stylesheet" type="text/css" href="css.reset.css" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="US Group Consolidator Inc. cloud-based online LTL booking             system.">
+	<meta name="author" content="Ichiban Gaijin">
+	<title>US Group Consolidators LTL Trucking</title>
+	<link rel="stylesheet" type="text/css" href="css.reset.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 
 </head>
 
 <body>
-  <div class="container1">
-    <img class="logo" src="truck.jpg" alt="logo" />
-    <ul>
-      <li>
-        <button type="submit"><a href="mailto:james@usgroup-ord.com">Sign-up</a></button>
-      </li>
-      <li>
-        <button type="submit"><a href="mailto:james@usgroup-ord.com">Contact Us</a></button>
-      </li>
-      <li>
-        <button type="submit"><a href="http://usgroupconsol.com" target="_blank">About US Group Consolidator Inc.</a></button>
-      </li>
-    </ul>
-  </div>
+	<div class="container1">
+		<img class="logo" src="truck.jpg" alt="logo" />
+		<ul>
+			<li>
+				<button type="submit">
+					<a href="#sign-up-container">Sign-up</a>
+				</button>
+			</li>
+			<li>
+				<button type="submit">
+					<a href="http://myblueship.com" target="_blank">Log in</a>
+				</button>
+			</li>
+			<li>
+				<button type="submit">
+					<a href="http://usgroupconsol.com" target="_blank">About US Group Consolidator Inc.</a>
+				</button>
+			</li>
+		</ul>
+	</div>
 
-  <div class="box">
+	<div class="box">
 
-    <div class="container2">
-      <h1 class="frontpage">Find the lowest trucking rates, instantly.</h1>
-    </div>
-      
-   
-      <iframe width="560" height="315" src="http://www.youtube.com/embed/03WqHAX6nLI?rel=0" frameborder="0" allowfullscreen></iframe>
+		<div class="container2">
+			<h1 class="frontpage">Find the lowest trucking rates, instantly.</h1>
+		</div>
 
-  </div>
-  <!--box end -->
-	
+
+		<iframe width="560" height="315" src="http://www.youtube.com/embed/03WqHAX6nLI?rel=0" frameborder="0" allowfullscreen></iframe>
+
+	</div>
+	<!--box end -->
+
 	<section class="bottom-section">
 		<div class="boxphoto">
-			<img class="bottom-images" src="computer" alt="computer"/>
+			<img class="bottom-images" src="computer" alt="computer" />
 			<p>Instantly find top rates from 50+ carriers</p>
 		</div>
-		<div class="boxphoto">	
-			<img class="bottom-images" src="printer" alt="printer"/>
+		<div class="boxphoto">
+			<img class="bottom-images" src="printer" alt="printer" />
 			<p>Print the Bill of Lading from your computer, anytime, anywhere.</p>
 		</div>
-		<div class="boxphoto">	
-			<img class="bottom-images" src="box" alt="box"/>
+		<div class="boxphoto">
+			<img class="bottom-images" src="box" alt="box" />
 			<p>Carrier is automatically notifed and dispatched.</p>
 		</div>
-		
+
 	</section>
-	
+
 	<section class="sign-up-wrapper">
 		<div id="sign-up-container">
+			<form action="#.php" method="get" name="signupform" id="signupform">
+				<legend>Sign up for a free password</legend>
+				<label for="Name">Your Name:</label>
+				<input type="text" name="Name" id="Name" required>
+				<br>
+
+				<label for="Company">Company:</label>
+				<input type="text" name="Company" id="Company">
+				<br>
+
+				<label for="Email">Email:</label>
+				<input type="text" name="Email" id="Email" required>
+				<br>
+
+				<label for="Phone">Phone:</label>
+				<input type="text" name="Phone" id="Phone" required>
+				<br>
+
+				<div id="button-wrapper">
+					<input type="submit" name="submit" id="button" value="Submit">
+					<input type="reset" name="reset" id="reset">
+					<p>(please note: sign-up form is currently under construction)</p>
+				</div>
+
+			</form>
 		</div>
-	
+
 	</section>
-	
+
 	<section id="footer-wrapper">
 		<div id="footer">
-			&copy;2014 US Group Consolidator Inc.	
+			&copy;2014 US Group Consolidator Inc.
 		</div>
 	</section>
-								 
-	
+
+
 
 </body>
 

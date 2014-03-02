@@ -180,6 +180,47 @@ footer {
 	border:solid 25px #25627F;
 	
 }
+
+legend {
+	font-size: 50px;
+	margin:40px auto 50px;
+	clear:both;
+	text-shadow:1px 1px 30px;
+}
+
+label {
+	float:left;
+	text-align:right;
+	width: 200px;
+	font-size: 30px;
+	clear:left;
+}
+
+input {
+	width: 50%;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	height:25px;
+	font-size:18px;
+	color:blue;
+	
+
+}
+
+#button-wrapper {
+	width:100%;
+	text-align:center;
+	
+}
+
+#button, #reset {
+	width:150px;
+	background-color:#f2f2f2;
+	height:50px;
+	margin-top: 30px;
+				
+}
+
 	
 #footer-wrapper {
 	width:100%;
