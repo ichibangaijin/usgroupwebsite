@@ -54,13 +54,13 @@ a {
   border-top: solid 10px black;
   border-bottom: solid 10px black;
   position:relative;
+  clear:both;
 }
   
 
 .container2 {
   width:45%;
   height: 420px;
-  float:left;
   margin: 0 0 0 2.5%;
 }
 
@@ -85,11 +85,9 @@ iframe {
 }
 
 h1.frontpage {
-  float: left;
   margin-left: 20px;
   font-size: 3rem;
   width: auto;
-  margin-right: 50px;
   margin-top: 120px;
   font-weight: 900;
   line-height: 1.2em;
