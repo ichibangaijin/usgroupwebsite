@@ -167,6 +167,7 @@ section.bottom-section {
 	background:#25627F;
 	float:left;
 	border-top:solid 10px black;
+	border-bottom:solid 10px black;
 	text-align:center;
 	
 }
