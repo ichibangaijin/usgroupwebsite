@@ -77,6 +77,13 @@ iframe {
 
 }
 
+#signup {
+	position:static;
+	height:525px;
+	width: 90%;
+	margin-top: 1%;
+}
+
 h1.frontpage {
   float: left;
   margin-left: 20px;
@@ -154,72 +161,16 @@ section.bottom-section {
 }
 
 
-
-footer {
- position:absolute;
-  bottom: 0;
-  width: 100%;
-  text-align:center;
-	
-}
 .sign-up-wrapper {
 	width:100%;
 	height: 600px;
 	background:#25627F;
 	float:left;
 	border-top:solid 10px black;
-	
-}
-
-#sign-up-container {
-	height: 500px;
-	width: 60%;
-	background-color:#f2f2f2;
-	margin:25px auto 50px auto;
-	box-shadow: 15px 15px 100px black;
-	border:solid 25px #25627F;
-	
-}
-
-legend {
-	font-size: 50px;
-	margin:40px auto 50px;
-	clear:both;
-	text-shadow:1px 1px 30px;
-}
-
-label {
-	float:left;
-	text-align:right;
-	width: 200px;
-	font-size: 30px;
-	clear:left;
-}
-
-input {
-	width: 50%;
-	margin-left: 25px;
-	margin-bottom: 25px;
-	height:25px;
-	font-size:18px;
-	color:blue;
-	
-
-}
-
-#button-wrapper {
-	width:100%;
 	text-align:center;
 	
 }
 
-#button, #reset {
-	width:150px;
-	background-color:#f2f2f2;
-	height:50px;
-	margin-top: 30px;
-				
-}
 
 	
 #footer-wrapper {
@@ -232,9 +183,9 @@ input {
 
 #footer {
 	font-size: 20px;
-	padding-top:10px;
-	border:solid 10px black;
+	padding-top:25px;
+
 	
 
 	
-}
+
