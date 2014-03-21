@@ -57,7 +57,7 @@ a {
 
 .box {
   background:#25627F;
-  width: 100%;
+  min-width: 365px;
   height:200px;
   border-top: solid 10px black;
   border-bottom: solid 10px black;
