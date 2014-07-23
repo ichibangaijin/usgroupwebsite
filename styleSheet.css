@@ -1,0 +1,74 @@
+/* line 4, styleSheet.scss */
+img.logo-image {
+  width: 250px;
+  margin-top: -30px;
+}
+
+/* line 9, styleSheet.scss */
+.modal-form input {
+  display: block;
+  width: 300px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 5px;
+  margin: auto;
+}
+
+/* line 18, styleSheet.scss */
+.modal-title {
+  font-size: 25px;
+}
+
+/* line 22, styleSheet.scss */
+.modal-title img {
+  width: 100px;
+  vertical-align: middle;
+  margin-top: -15px;
+}
+
+/* line 28, styleSheet.scss */
+.navbar-default {
+  padding-top: 20px;
+}
+
+/* line 32, styleSheet.scss */
+.jumbotron h1 {
+  color: white;
+  text-shadow: 1px 1px 10px black;
+}
+
+/* line 37, styleSheet.scss */
+.jumbotron p {
+  color: white;
+}
+
+/* line 41, styleSheet.scss */
+.navbar {
+  height: 100px;
+}
+
+/* line 45, styleSheet.scss */
+.jumbotron {
+  margin-top: 150px;
+  background: #2070ad;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2070ad 0%, #258dc8 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2070ad), color-stop(100%, #258dc8));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2070ad 0%, #258dc8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2070ad 0%, #258dc8 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2070ad 0%, #258dc8 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2070ad 0%, #258dc8 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2070ad', endColorstr='#258dc8',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 60, styleSheet.scss */
+.footer {
+  text-align: center !important;
+}

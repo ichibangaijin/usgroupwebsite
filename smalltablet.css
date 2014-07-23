@@ -126,17 +126,18 @@ section.bottom-section {
   padding-top: 25px;
 }
 
-#expandingNavList{
-  color:blue;
+.expandingNavList{
+  color:red;
 }
 
-#hiddenList {
-  color:grey; 
+.hiddenList {
+  color:red; 
   display:none;
 }
 
 #hiddenList li:first-child{
   margin-top:25px; 
+    display:block;
 }
 
 #hiddenList li {

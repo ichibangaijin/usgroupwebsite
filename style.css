@@ -197,12 +197,12 @@ section.bottom-section {
 }
 
 
-#expandingNavList {
+.expandingNavList {
   color:blue;
   display:inline;
 }
 
-#hiddenList {
+.hiddenList {
   color:grey; 
   display:none;
  }

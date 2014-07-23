@@ -1,101 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="US Group Consolidator Inc. cloud-based online LTL booking system.">
+		<meta name="author" content="Matt Highland">
+		<title>US Group Consolidators LTL Trucking</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+		<!-- Jquery -->
+		<script src="jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="styleSheet.css">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="US Group Consolidator Inc. cloud-based online LTL booking             system.">
-	<meta name="author" content="Ichiban Gaijin">
-	<title>US Group Consolidators LTL Trucking</title>
-	<link rel="stylesheet" type="text/css" href="css.reset.css" />
-    <link rel="stylesheet" media="(min-width: 1070px)" type="text/css" href="style.css" />
-	<link rel="stylesheet" media="(max-width:1069px)" type="text/css" href="tablet.css" />
-	<link rel="stylesheet" media="(max-width:700px)" type="text/css" href="smalltablet.css" />
+		<style>
+.cloud-img:before {
+  content: "\2601";
+  font-size:30px;
+  margin-right:5px;
+}
+
+.printer-img:before{
+	content: "\2601";
+  font-size:30px;
+  margin-right:5px;
 	
+}
 
-</head>
-<body>
-  <div id="main-wrapper">
-	<div class="container1">
-		<img class="logo" src="truck.jpg" alt="logo" />
-		<ul>
-			<li>
-		  	  <a href="#sign-up-container">Sign-up</a>
-			</li>
-			<li>
-			  <a href="http://myblueship.com" target="_blank">Log in</a>
-			 </li>
-			<li>
-			   <a href="http://www.usgroupconsol.com/office.asp" target="_blank">Contact US Group</a>
-		    </li>
-            <li id="expandingNavList">Documents</li>
-              <ul id="hiddenList">
-                <li><a href="attachments/Incoterms.pdf">Incoterms</a></li>
-                <li><a href="attachments/Ocean%20Glossary%20of%20Terms.pdf">Ocean Glossary of Terms</a></li>
-                <li><a href="attachments/StraightBOL.pdf">Straight Bill of Lading</a></li>
-                <li><a href="attachments/U.S.%20Group%20Routing%20Instructions.doc">Routing Instructions</a></li>
-                <li><a href="attachments/Continuous%20Bond%20Application%20Form.pdf">Power of Attorney</a></li>
-                <li><a href="attachments/Credit%20Card%20Authorization%20BG.pdf">Credit Card Authorization</a></li>
-                <li><a href="attachments/Canada%20Customs%20Invoice.pdf">Canada Customs Invoice</a></li>
-              </ul>
-          </ul>
-	</div>
-    
-
-	<div class="box">
-
-		<div class="container2">
-			<h1 class="frontpage">Find the lowest trucking rates, instantly.</h1>
-		</div>
-
-
-		<iframe width="560" height="315" src="http://www.youtube.com/embed/03WqHAX6nLI?rel=0" allowfullscreen></iframe>
-
-	</div>
-	<!--box end -->
-
-	<section class="bottom-section">
-		<div class="boxphoto">
-			<img class="bottom-images" src="computer" alt="computer" />
-			<p>Instantly find top rates from 50+ carriers</p>
-		</div>
-		<div class="boxphoto">
-			<img class="bottom-images" src="printer" alt="printer" />
-			<p>Print the Bill of Lading from your computer, anytime, anywhere.</p>
-		</div>
-		<div class="boxphoto">
-			<img class="bottom-images" src="../box" alt="box" />
-			<p>Carrier is automatically notifed and dispatched.</p>
-		</div>
-
-	</section>
-
-	<section class="sign-up-wrapper">
-						<iframe id="signup" title="Sign up for a free password" frameborder="0" src="https://ichibangaijin.wufoo.com/forms/z17y32qa1ny64nt/">
-							<a href="https://ichibangaijin.wufoo.com/forms/z17y32qa1ny64nt/" title="HTML Form">Sign up for a free password</a>
-							</iframe>
-								
+.truck-img:before{
+	 content: "\2601";
+  font-size:30px;
+  margin-right:5px;
 	
+}
 
-	</section>
+		</style>
 
-	<section id="footer-wrapper">
-		<div id="footer">
-			&copy;2014 US Group Consolidator Inc.
-		</div>
-	</section>
+		<!--[if lt IE 9]>
+		<script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
+		<![endif]-->
 
-</div> <!-- end of main-wrapper -->
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script>
-      $(document).ready(function(){  
-      $("#expandingNavList").click(function(){
-        $("#hiddenList").slideToggle(500);
-      });
-      });
-      
-    </script>
-</body>
 
-</html>
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container" >
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img class="logo-image" src="truck.jpg" alt="US Group Logo"/></a>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right dropdown">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="mailto:james@usgroup-ord.com">Contact</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documents <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="attachments/Cert%20of%20Origin%20Form%20434.pdf">Certificate of Origin</a></li>
+								<li><a href="attachments/NAFTA%20CERT%20OF%20ORIGIN%20NAFTA%20FORM.PDF">NAFTA Certificate of Origin</a></li>
+								<li><a href="attachments/Jim%20Langwell_BG%20AGENTCREDIT-Updated.pdf">Credit Application (Blue Grace)</a></li>
+								<li><a href="attachments/StraightBOL.pdf">Straight Bill of Lading</a></li>
+								<li><a href="attachments/U.S.%20Group%20Routing%20Instructions.doc">Routing Instructions</a></li>
+								<li><a href="attachments/Continuous%20Bond%20Application%20Form.pdf">Power of Attorney</a></li>
+								<li><a href="attachments/Credit%20Card%20Authorization%20BG.pdf">Credit Card Authorization</a></li>
+								<li><a href="attachments/Canada%20Customs%20Invoice.pdf">Canada Customs Invoice</a></li>
+								<li><a href="attachments/Continuous%20Bond%20Application%20Form.pdf">Continuous Bond</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="attachments/Ocean%20Glossary%20of%20Terms.pdf">Ocean Glossary of Terms</a></li>
+								<li><a href="attachments/Incoterms.pdf">Incoterms</a></li>
+								<li><a href="http://densitycalc.mybluegrace.com">Density Calculator</a></li>
+							</ul>
+						</li>
+					</ul>
+					</div> <!-- end of collapse navbar -->
+					</div> <!-- end of navbar container -->
+					</div> <!-- end of navbar -->
 
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel"> 	<img src="logo1.jpg" alt="">Free Password Sign Up</h4>
+      </div>
+      <div class="modal-body">We are sorry, this form is currently being updated.  Please use the contact link at top of home page.  
+
+        <form action="" class="modal-form">
+        	<input type="text" placeholder="Your Name" required>
+        	<input type="text" placeholder="Company" required>
+        	<input type="text" placeholder="Email" required>
+        	<input type="text" placeholder="Phone">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button action="submit" type="submit" name="submit" class="btn btn-primary">Submit</button>
+    </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+					<div class="container">
+						<div class="jumbotron">
+							<h1>Find the lowest trucking rates, instantly.</h1>
+							<p class="lead">US Group Consolidator Inc, a leader in worldwide freight forwarding, now offers instant less-than-truckload quoting and shipping.  Its free to join and easy to use from your own computer.</p>
+							<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Sign Up for FREE</button>
+						
+						</div>
+						</div> <!-- end of container -->
+						<div class="container">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12 col-sm-4">
+										<h2 class="cloud-img">Cloud-based</h2>
+										<p>
+										No software to install, just log in from your home computer and you instantly have access to rates from over 50 different LTL carriers.  All you need to get started is a password.  </p>
+									</div>
+									<div class="col-xs-12 col-sm-4">
+										<h2 class="printer-img">Save Money</h2>
+										<p>
+										Most LTL carriers specialize in different lanes in the USA.  Our system lists the carriers in order lowest to greatest cost based on your specific origin and destination.  Our goal is to save you at least 15% on your LTL costs.  </p>
+									</div>
+									<div class="col-xs-12 col-sm-4">
+										<h2 class="truck-img">Safe and Reliable</h2>
+										<p>
+										The last step is to print your bill of lading and labels. The carrier is automatically dispatched through the system.  The contact details for each trucking company is provided, and US Group is always available to assist as well.</p>
+									</div>
+								</div>
+							</div>
+							<br><br>
+							<!-- 16:9 aspect ratio -->
+							<div class="row">
+								<div class="col-xs-12 col-sm-4">
+									This is it
+								</div>
+								<div class=" well col-xs-12 col-sm-8">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/03WqHAX6nLI?rel=0"></iframe>
+									</div>
+								</div>
+							</div>
+
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<p class="footer">&copy2014 US Group Consolidators Inc.</p>
+									</div>
+								</div>
+							</div>
+							
+						</body>
+					</html>
